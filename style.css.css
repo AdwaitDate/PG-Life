@@ -1,0 +1,79 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  color: #373737;
+  font-size: 16px;
+  position: relative;
+}
+nav {
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 66px;
+}
+.left > a {
+  margin-right: 16px;
+  padding: 5px 0px 0px 5px;
+}
+.left > a > img {
+  width: 108px;
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 18px;
+  padding-left: 5px;
+  border-left: 1.5px solid grey;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #373737;
+}
+
+.section2 {
+  width: 1920px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #373737;
+  background-image: url("img/bg.png");
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+  text-align: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: 1920px 840px; */
+  /* background-position: center; */
+  /* min-height: auto; */
+}
+h2 {
+  padding: 200px 0px 10px 0px;
+  color: white;
+  font-size: 37px;
+}
+.searchbar {
+  /* border-left: 0.1px;
+    border-radius: %; */
+  width: 476px;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.searchsubmit {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 7.5px;
+  margin-right: 0px;
+  background: rgb(109, 108, 108);
+  color: white;
+  font-size: 16px;
+  border: none;
+}
